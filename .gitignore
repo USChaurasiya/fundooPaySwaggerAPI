@@ -47,3 +47,4 @@ Servers
 bin
 *.setting
 target
+.classpath
