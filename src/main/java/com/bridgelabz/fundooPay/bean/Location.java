@@ -4,8 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
-import javax.persistence.PrimaryKeyJoinColumn;
 
 import io.swagger.annotations.ApiModelProperty;
 
@@ -22,7 +20,6 @@ public class Location {
 	private String latitude;
 	@ApiModelProperty(notes = "Provided Location long", required = true)
 	private String longitude;
-	
 
 	public Location(long lId, String lName, String latitude, String longitude) {
 		super();
@@ -31,7 +28,7 @@ public class Location {
 		this.latitude = latitude;
 		this.longitude = longitude;
 	}
-	
+
 	public Location() {
 		// TODO Auto-generated constructor stub
 	}
@@ -56,10 +53,9 @@ public class Location {
 		return lId;
 	}
 
-	/*public void setlId(long lId) {
-		this.lId = lId;
-	}
-*/
+	/*
+	 * public void setlId(long lId) { this.lId = lId; }
+	 */
 	public String getlName() {
 		return lName;
 	}

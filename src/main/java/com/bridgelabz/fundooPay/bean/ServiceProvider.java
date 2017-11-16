@@ -2,7 +2,6 @@ package com.bridgelabz.fundooPay.bean;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -31,11 +30,9 @@ public class ServiceProvider {
 	@ApiModelProperty(notes = "Provided Email", required = true)
 	private String spMail;
 	@ApiModelProperty(notes = "Set Locations", required = true)
-	@OneToOne(cascade = {CascadeType.ALL})
+	@OneToOne(cascade = { CascadeType.ALL })
 	private Location location;
 
-	
-	
 	public String getSpMail() {
 		return spMail;
 	}
@@ -60,16 +57,13 @@ public class ServiceProvider {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-
 	public Long getId() {
 		return id;
 	}
 
-	/*public void setId(Long id) {
-		this.id = id;
-	}
-*/
+	/*
+	 * public void setId(Long id) { this.id = id; }
+	 */
 	public String getSpName() {
 		return spName;
 	}

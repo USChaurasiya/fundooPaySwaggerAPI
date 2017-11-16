@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.bridgelabz.fundooPay.FundooPaySwaggerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.082 sec - in com.bridgelabz.fundooPay.FundooPaySwaggerApplicationTests
