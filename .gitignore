@@ -44,3 +44,6 @@ Servers
 *.properties
 .metadata
 .recommenders
+bin
+*.setting
+target
