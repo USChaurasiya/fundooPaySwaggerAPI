@@ -41,7 +41,6 @@ RemoteSystemsTempFiles
 Servers
 
 *.mvn
-*.properties
 .metadata
 .recommenders
 bin
