@@ -1,29 +1,4 @@
-<<<<<<< HEAD
-target/
-!.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-=======
 # Compiled source #
 ###################
 *.com
@@ -69,4 +44,3 @@ Servers
 *.properties
 .metadata
 .recommenders
->>>>>>> a36b0b00cf9459ca0641350e1f87266f56822dff
