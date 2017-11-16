@@ -29,6 +29,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "admin", description = "Rest API for Service Provider", tags = "Service Provider API")
 public class SPController {
 
+
 	@Autowired
 	ServiceProviderDAO serviceProviderDAO;
 
@@ -36,6 +37,8 @@ public class SPController {
 	JavaMailSender mailSender;
 	@Autowired
 	MessageService msgService;
+
+	
 
 	/*--------------------------------SERVICE PROVIDER REGISTRATION------------------------------------------*/
 	@RequestMapping(value = "/register/{serviceType}", method = RequestMethod.POST, produces = "application/json")
