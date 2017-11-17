@@ -25,7 +25,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-/* @RequestMapping("/serviceprovider") */
+ @RequestMapping("/serviceprovider") 
 @Api(value = "admin", description = "Rest API for Service Provider", tags = "Service Provider API")
 public class SPController {
 
